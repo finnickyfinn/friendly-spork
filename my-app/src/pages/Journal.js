@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../components/Header'
 
 
 function Journal() {
@@ -21,7 +20,7 @@ function Journal() {
 }
 
 
-
+// Make a pop up modoal for journal entry, find new icon, add jounral to dropdown menu, add list of all recent entries 
 
 
 
