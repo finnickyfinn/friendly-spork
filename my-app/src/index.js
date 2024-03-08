@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import App from './App'
@@ -10,6 +9,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Learn from './pages/Learn'
 import Challenges from './pages/Challenges';
+import Account from './pages/Account'
 
 
 
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Journal",
-    element: <><Header/><Journal /><Footer/></>,
+    element: <><Header/><Journal/><Footer/></>,
   },
   {
     path:"Learn",
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
   {
     path:"Challenges",
     element:<><Header/><Challenges/><Footer/></>
+  },
+  {
+    path:"Account",
+    element:<><Header/><Account/><Footer/></>
   }
 
   

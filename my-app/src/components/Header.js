@@ -13,8 +13,8 @@ function Header(){
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-700 rounded-box w-52">
         <li><Link to='/'>Home</Link></li>
-        <li><a>Account</a></li>
-        <li><a>About</a></li>
+        <li><Link to='/Account'>Account</Link></li>
+        <li><Link to='/Journal'>Journal</Link></li>
       </ul>
     </div>
   </div>

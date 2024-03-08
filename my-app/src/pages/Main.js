@@ -24,10 +24,10 @@ function Main() {
                         <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Preserving Tradition</h2>
+                        <p>Tune in to learn how to not lose maintain your identity...</p>
                         <div className="card-actions">
-                            <button className="btn btn-primary">Buy Now</button>
+                            <button className="btn btn-primary">Join Now</button>
                         </div>
                     </div>
                 </div>        
